@@ -1,0 +1,21 @@
+{
+  "branch": "main",
+  "runTests": true,
+  "runLint": true,
+  "useAI": false,
+  "autoCommit": false,
+  "autoPush": false,
+  "testCommand": "npm run test",
+  "lintCommand": "npm run lint",
+  "watchIgnore": [
+    "*.tmp",
+    "build/**",
+    "dist/**",
+    "node_modules/**",
+    ".git/**",
+    "*.log",
+    ".env*",
+    "coverage/**",
+    ".nyc_output/**"
+  ]
+}

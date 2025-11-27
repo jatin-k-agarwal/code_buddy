@@ -1,0 +1,66 @@
+{
+  "name": "code_buddy",
+  "version": "1.2.1",
+  "description": "An intelligent CLI assistant to automate your Git workflow with AI-powered commits, file watching, and multi-provider support (OpenAI, Gemini, Addis AI).",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "code_buddy": "bin/code_buddy.js"
+  },
+  "scripts": {
+    "start": "node bin/code_buddy.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write \"src/**/*.js\" \"*.md\""
+  },
+  "keywords": [
+    "cli",
+    "git",
+    "developer-tools",
+    "productivity",
+    "automation",
+    "ai",
+    "commit",
+    "watcher"
+  ],
+  "license": "MIT",
+  "author": "Exodus Tola (https://github.com/exodus-tola-mindCoder)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exodus-tola-mindCoder/code_buddy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/exodus-tola-mindCoder/code_buddy/issues"
+  },
+  "homepage": "https://github.com/exodus-tola-mindCoder/code_buddy#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "chokidar": "^3.6.0",
+    "commander": "^11.1.0",
+    "cosmiconfig": "^8.3.6",
+    "dotenv": "^16.6.1",
+    "openai": "^4.104.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE",
+    ".code_buddyrc.example.json"
+  ]
+}
