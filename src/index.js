@@ -49,6 +49,8 @@ export function createCommand() {
     .description('Watch files for changes and log modifications')
     .option('-v, --verbose', 'Enable verbose logging')
     .option('--use-ai', 'Use AI for commit message generation')
+    .option('--no-tests', 'Skip running tests on file change', false)
+    .option('--no-lint', 'Skip linting on file change', false)
     .option('--ignore <patterns...>', 'Additional patterns to ignore')
     .action(handleWatch);
 

@@ -24,6 +24,14 @@ export function startWatcher(options = {}) {
   if (options.useAi || options.useAI) {
     config.useAI = true;
   }
+
+  // Handle negation flags (Commander sets property to false if --no-X is passed)
+  if (options.tests === false) {
+    config.runTests = false;
+  }
+  if (options.lint === false) {
+    config.runLint = false;
+  }
   
   // Default ignore patterns
   const defaultIgnorePatterns = [
