@@ -17,7 +17,7 @@ const AI_PROVIDERS = {
   gemini: {
     name: 'Gemini',
     envKey: 'GEMINI_API_KEY',
-    model: 'gemini-2.0-flash',
+    model: 'gemini-2.5-flash',
     baseURL: 'https://generativelanguage.googleapis.com/v1beta'
   },
   addisai: {

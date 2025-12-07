@@ -15,13 +15,11 @@ If you find this project useful, please consider giving it a ⭐! Your support h
   <a href="#"><img src="https://img.shields.io/badge/AI-OpenAI%20%7C%20Gemini%20%7C%20Addis%20AI-blue.svg" alt="AI Providers"></a>
 </p>
 
-<p align="center">
-  <strong>This tool is proudly sponsored by <a href="https://platform.addisassistant.com/">Addis AI</a>.</strong>
-</p>
+
 
 ---
 
-**code_buddy** is an intelligent, open-source cli tool that automates your most repetitive Git tasks. From providing an enhanced `git status` to watching your files, running quality checks, and generating insightful, AI-powered commit messages, code_buddy acts as your personal Git assistant so you can focus on coding.
+**code_buddy** is an intelligent, open-source command line tool that automates your most repetitive Git tasks. From providing an enhanced `git status` to watching your files, running quality checks, and generating insightful, AI-powered commit messages, code_buddy acts as your personal Git assistant so you can focus on coding.
 
 <p align="center">
 <pre>

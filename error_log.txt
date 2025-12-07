@@ -1,0 +1,144 @@
+Timestamp: 2025-12-07T19:02:29.749Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:02:32.783Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:02:35.709Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:02:38.709Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:02:41.662Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:02:44.576Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:02:47.504Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:02:50.340Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:02:53.318Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:02:56.559Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:02:59.384Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:03:02.151Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:03:04.876Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:03:07.596Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:03:10.344Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
+Timestamp: 2025-12-07T19:03:13.138Z
+Error: Gemini API error: Forbidden
+Stack: Error: Gemini API error: Forbidden
+    at generateGeminiCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:210:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async generateAICommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:72:16)
+    at async generateCommitMessage (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/commit-message.js:45:12)
+    at async Timeout.processChanges [as _onTimeout] (file:///C:/Users/jatin/OneDrive/Desktop/gissy/gissy/src/watcher.js:126:29)
+
