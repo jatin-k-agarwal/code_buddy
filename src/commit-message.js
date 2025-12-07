@@ -193,8 +193,7 @@ Generate only the commit message, nothing else.`;
             }]
           }],
           generationConfig: {
-            temperature: 0.3,
-            maxOutputTokens: 1000,
+            temperature: 0.3
           }
         })
       }
