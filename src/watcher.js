@@ -69,6 +69,8 @@ export function startWatcher(options = {}) {
     persistent: true,
     ignoreInitial: true,
     followSymlinks: false,
+    usePolling: true, // Required for OneDrive/Network drives
+    interval: 100,
     depth: undefined,
     awaitWriteFinish: {
       stabilityThreshold: 300,
