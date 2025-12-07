@@ -178,40 +178,49 @@ ${diff}
 
 Generate only the commit message, nothing else.`;
 
-  const response = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/${config.model}:generateContent?key=${config.apiKey}`,
-    {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        contents: [{
-          parts: [{
-            text: prompt
-          }]
-        }],
-        generationConfig: {
-          temperature: 0.3,
-          maxOutputTokens: 100,
-        }
-      })
+  try {
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${config.model}:generateContent?key=${config.apiKey}`,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          contents: [{
+            parts: [{
+              text: prompt
+            }]
+          }],
+          generationConfig: {
+            temperature: 0.3,
+            maxOutputTokens: 100,
+          }
+        })
+      }
+    );
+
+    if (!response.ok) {
+      const errorBody = await response.text();
+      throw new Error(`Gemini API error: ${response.status} ${response.statusText} - ${errorBody}`);
     }
-  );
 
-  if (!response.ok) {
-    throw new Error(`Gemini API error: ${response.statusText}`);
-  }
-
-  const data = await response.json();
-  const message = data.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
-  
-  if (message) {
-    console.log(chalk.green(`✅ ${AI_PROVIDERS.gemini.name} commit message generated`));
-    return message;
-  } else {
-    console.log(chalk.yellow('⚠️  Gemini response was empty, using fallback'));
-    return generateFallbackCommitMessage(diff);
+    const data = await response.json();
+    console.log(chalk.gray(`[Debug] Gemini response received, parsing...`));
+    
+    const message = data.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
+    
+    if (message) {
+      console.log(chalk.green(`✅ ${AI_PROVIDERS.gemini.name} commit message generated`));
+      return message;
+    } else {
+      console.log(chalk.yellow('⚠️  Gemini response was empty, using fallback'));
+      console.log(chalk.gray(`[Debug] Response data: ${JSON.stringify(data)}`));
+      return generateFallbackCommitMessage(diff);
+    }
+  } catch (error) {
+    console.error(chalk.red(`[Gemini Error] ${error.message}`));
+    throw error; // Re-throw so parent catch handler can log it
   }
 }
 
