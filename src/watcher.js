@@ -32,6 +32,9 @@ export function startWatcher(options = {}) {
   if (options.lint === false) {
     config.runLint = false;
   }
+  if (options.yes) {
+    config.autoConfirm = true;
+  }
   
   // Default ignore patterns
   const defaultIgnorePatterns = [
@@ -129,12 +132,18 @@ export function startWatcher(options = {}) {
         chalk.gray(`🌿 Target branch: ${config.branch}`)
       ];
 
-      const shouldCommit = await confirmWithDetails(
-        '📦 Ready to commit and push',
-        details,
-        'Commit and push now?',
-        true
-      );
+      let shouldCommit = true;
+      if (!config.autoConfirm) {
+         shouldCommit = await confirmWithDetails(
+          '📦 Ready to commit and push',
+          details,
+          'Commit and push now?',
+          true
+        );
+      } else {
+        console.log(chalk.blue('\n📦 Auto-confirming commit and push...'));
+        details.forEach(d => console.log(d));
+      }
 
       if (shouldCommit) {
         console.log(chalk.blue('\n🚀 Starting git workflow...'));
