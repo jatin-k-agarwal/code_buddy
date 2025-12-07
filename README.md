@@ -5,7 +5,7 @@ If you find this project useful, please consider giving it a ⭐! Your support h
 [![GitHub stars](https://img.shields.io/github/stars/exodus-tola-mindCoder/code_buddy?style=social)](https://github.com/exodus-tola-mindCoder/code_buddy)
 
 <p align="center">
-  <strong>A sophisticated CLI assistant to supercharge your Git workflow powered by multiple AI providers.</strong>
+  <strong>A sophisticated CLI assistant, to supercharge your Git workflow powered by multiple AI providers.</strong>
 </p>
 
 <p align="center">
