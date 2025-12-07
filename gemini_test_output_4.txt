@@ -1,9 +1,0 @@
-Testing Gemini API connection...
-✅ GEMINI_API_KEY found in environment.
-🤖 Generating AI commit message using Gemini...
-❌ AI generation failed: Gemini API error: Too Many Requests
-🔄 Using fallback commit message
-
-Generated Message:
-Update files — 1 lines added
-Fallback used.

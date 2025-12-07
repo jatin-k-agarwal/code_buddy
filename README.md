@@ -21,7 +21,7 @@ If you find this project useful, please consider giving it a ⭐! Your support h
 
 ---
 
-**code_buddy** is an intelligent, open-source command-line tool that automates your most repetitive Git tasks. From providing an enhanced `git status` to watching your files, running quality checks, and generating insightful, AI-powered commit messages, code_buddy acts as your personal Git assistant so you can focus on coding.
+**code_buddy** is an intelligent, open-source cli tool that automates your most repetitive Git tasks. From providing an enhanced `git status` to watching your files, running quality checks, and generating insightful, AI-powered commit messages, code_buddy acts as your personal Git assistant so you can focus on coding.
 
 <p align="center">
 <pre>
