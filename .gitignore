@@ -74,4 +74,15 @@ coverage!
 .env.test.local!
 .env.production.local!
 
+
 test-repo-*/
+
+# Debug and test files
+debug_*.js
+debug_*.txt
+test_*.js
+*_test*.txt
+verify_*.js
+api_test_result.txt
+connection_result.txt
+error_log.txt
