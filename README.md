@@ -1,6 +1,6 @@
 # code_buddy
 
-If you find this project useful, please consider giving it a ⭐! Your support helps the project grow and reach more developers.
+If you find this project useful, please consider giving it a ⭐! Your support helps the project grow and reach more developer.
 
 [![GitHub stars](https://img.shields.io/github/stars/exodus-tola-mindCoder/code_buddy?style=social)](https://github.com/exodus-tola-mindCoder/code_buddy)
 

@@ -1,0 +1,34 @@
+
+> code_buddy@1.2.1 test
+> node --experimental-vm-modules node_modules/jest/bin/jest.js
+
+(node:254504) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS tests/config/config.test.js
+(node:254380) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:254328) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:254428) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS tests/unit/ai-providers.test.js
+PASS tests/error-handling/error.test.js
+Switched to a new branch 'test-branch'
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+error: No such remote 'origin'
+PASS tests/integration/cli.test.js
+fatal: ambiguous argument '%s': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+Switched to a new branch 'feature-branch'
+(node:254348) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS tests/unit/git-operations.test.js (5.072 s)
+
+Test Suites: 5 passed, 5 total
+Tests:       21 passed, 21 total
+Snapshots:   0 total
+Time:        5.717 s, estimated 6 s
+Ran all test suites.

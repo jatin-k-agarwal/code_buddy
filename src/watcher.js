@@ -19,6 +19,12 @@ export function startWatcher(options = {}) {
   const { verbose = false, ignore = [] } = options;
   const config = getConfig();
   
+  // Override config with CLI options
+  // Commander converts --use-ai to options.useAi
+  if (options.useAi || options.useAI) {
+    config.useAI = true;
+  }
+  
   // Default ignore patterns
   const defaultIgnorePatterns = [
     '.git/**',

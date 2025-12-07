@@ -1,0 +1,8 @@
+Testing Gemini API connection...
+✅ GEMINI_API_KEY found in environment.
+🤖 Generating AI commit message using OpenAI...
+❌ AI generation failed: 401 Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.
+🔄 Using fallback commit message
+
+Generated Message:
+Update files — 1 lines added

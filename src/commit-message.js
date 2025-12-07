@@ -17,7 +17,7 @@ const AI_PROVIDERS = {
   gemini: {
     name: 'Gemini',
     envKey: 'GEMINI_API_KEY',
-    model: 'gemini-pro',
+    model: 'gemini-2.0-flash',
     baseURL: 'https://generativelanguage.googleapis.com/v1beta'
   },
   addisai: {
@@ -92,7 +92,8 @@ function getAvailableAIProvider() {
     const config = AI_PROVIDERS[providerKey];
     const apiKey = process.env[config.envKey];
     
-    if (apiKey && apiKey.trim()) {
+    // Check if key is valid (not empty and not a placeholder)
+    if (apiKey && apiKey.trim() && !apiKey.startsWith('your_') && !apiKey.includes('placeholder')) {
       return {
         key: providerKey,
         name: config.name,

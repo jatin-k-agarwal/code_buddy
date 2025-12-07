@@ -1,0 +1,48 @@
+
+> code_buddy@1.2.1 test
+> node --experimental-vm-modules node_modules/jest/bin/jest.js
+
+(node:215104) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS tests/config/config.test.js
+(node:242500) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:252652) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+FAIL tests/error-handling/error.test.js
+  ● Error Handling Tests › test-runner.js error handling › should handle missing lint commands gracefully
+
+    EBUSY: resource busy or locked, rmdir 'C:\Users\jatin\OneDrive\Desktop\gissy\gissy\test-error'
+
+    [0m [90m 18 |[39m     testDir [33m=[39m join(process[33m.[39mcwd()[33m,[39m [32m'test-error'[39m)[33m;[39m
+     [90m 19 |[39m     [36mif[39m (existsSync(testDir)) {
+    [31m[1m>[22m[39m[90m 20 |[39m       rmSync(testDir[33m,[39m { recursive[33m:[39m [36mtrue[39m[33m,[39m force[33m:[39m [36mtrue[39m })[33m;[39m
+     [90m    |[39m       [31m[1m^[22m[39m
+     [90m 21 |[39m     }
+     [90m 22 |[39m     mkdirSync(testDir[33m,[39m { recursive[33m:[39m [36mtrue[39m })[33m;[39m
+     [90m 23 |[39m     process[33m.[39mchdir(testDir)[33m;[39m[0m
+
+      at Object.<anonymous> (tests/error-handling/error.test.js:20:7)
+
+(node:253532) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS tests/unit/ai-providers.test.js
+Switched to a new branch 'test-branch'
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+error: No such remote 'origin'
+PASS tests/integration/cli.test.js
+fatal: ambiguous argument '%s': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+Switched to a new branch 'feature-branch'
+(node:252684) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS tests/unit/git-operations.test.js (5.682 s)
+
+Test Suites: 1 failed, 4 passed, 5 total
+Tests:       1 failed, 20 passed, 21 total
+Snapshots:   0 total
+Time:        6.373 s
+Ran all test suites.

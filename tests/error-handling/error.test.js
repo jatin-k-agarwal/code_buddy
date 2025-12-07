@@ -23,15 +23,26 @@ describe('Error Handling Tests', () => {
     process.chdir(testDir);
   });
 
-  afterEach(() => {
+  afterEach(async () => {
     // Clean up
-    process.chdir(join(__dirname, '../../'));
-    // Add a small delay to prevent EBUSY errors on Windows
-    setTimeout(() => {
-      if (existsSync(testDir)) {
-        rmSync(testDir, { recursive: true, force: true });
+    try {
+      if (process.cwd() === testDir) {
+          process.chdir(join(__dirname, '../../'));
       }
-    }, 100);
+    } catch (e) {
+      // ignore
+    }
+
+    // Add a small delay to prevent EBUSY errors on Windows and wait for it
+    await new Promise(resolve => setTimeout(resolve, 100));
+    
+    if (existsSync(testDir)) {
+      try {
+        rmSync(testDir, { recursive: true, force: true });
+      } catch (e) {
+        console.error(`Failed to cleanup ${testDir}:`, e);
+      }
+    }
   });
 
   describe('config.js error handling', () => {
